@@ -1,11 +1,12 @@
 ---
 name: session-verdict
 description: >-
-  Verdicts a Capacitor or WebView supabase-js session as authenticated, expired,
-  or unresolved instead of treating SIGNED_OUT as logout. Use when an iOS
-  WebView or hybrid app bounces authenticated users to login after background
-  resume, when supabase-js fires a phantom SIGNED_OUT on a still-valid token,
-  or when several auth guards disagree on whether the session is gone.
+  Verdicts a Capacitor or iOS WKWebView supabase-js session as authenticated,
+  expired, or unresolved instead of treating onAuthStateChange SIGNED_OUT as
+  logout. Use when a hybrid app bounces authenticated users to login after
+  background resume, when supabase-js fires a phantom SIGNED_OUT on a still-valid
+  token, when getClaims or refreshSession fails on the network, or when several
+  auth guards disagree on whether the session is gone.
 license: MIT
 ---
 
