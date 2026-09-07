@@ -16,18 +16,11 @@ Install every skill in the pack:
 npx skills add orleib-lab/agent-skills
 ```
 
-Find it:
-
-```bash
-npx skills find "supabase SIGNED_OUT capacitor"
-npx skills find "phantom sign out WebView"
-```
-
 ## Skills
 
 | Skill | Use when |
 | --- | --- |
-| [session-verdict](./session-verdict/) | Capacitor / WebView + supabase-js bounces an authenticated user to login after background resume, or `SIGNED_OUT` fires on a still-valid token |
+| [session-verdict](./session-verdict/) | Capacitor WebView + supabase-js: empty `getSession`, storage still warming, or a network error treated as logout. Upgrade to 2.108.2+ for the old phantom `SIGNED_OUT` bug. |
 
 ## License
 
