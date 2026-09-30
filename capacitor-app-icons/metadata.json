@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "date": "February 2026",
+  "abstract": "Generate and replace iOS, Android, and PWA app icon and splash screen assets from a single source image for Capacitor projects.",
+  "triggers": [
+    "app icon",
+    "icon sizes",
+    "replace icon",
+    "generate icons",
+    "notification icon",
+    "splash screen",
+    "app icon generation",
+    "capacitor icons"
+  ],
+  "references": [
+    "https://capacitorjs.com/docs/guides/splash-screens-and-icons",
+    "https://github.com/ionic-team/capacitor-assets",
+    "https://developer.apple.com/design/human-interface-guidelines/app-icons",
+    "https://developer.android.com/develop/ui/views/launch/icon_design_adaptive"
+  ]
+}
