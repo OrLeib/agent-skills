@@ -21,6 +21,7 @@ npx skills add orleib-lab/agent-skills
 | Skill | Use when |
 | --- | --- |
 | [session-verdict](./session-verdict/) | Capacitor WebView + supabase-js: empty `getSession`, storage still warming, or a network error treated as logout. Upgrade to 2.108.2+ for the old phantom `SIGNED_OUT` bug. |
+| [capacitor-app-icons](./capacitor-app-icons/) | Capacitor app on macOS: generate every iOS, Android and PWA icon size and splash screen from one 1024x1024 image, with no dependencies beyond the built-in `sips`. |
 
 ## License
 
