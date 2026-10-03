@@ -1,19 +1,19 @@
 # agent-skills
 
-[![skills.sh](https://skills.sh/b/orleib-lab/agent-skills)](https://skills.sh/orleib-lab/agent-skills)
+[![skills.sh](https://skills.sh/b/orleib/agent-skills)](https://skills.sh/orleib/agent-skills)
 
 Production patterns for AI coding agents. One folder per skill. Add another folder when the next hard-won failure mode is worth teaching; do not open a new GitHub repo for it.
 
 Install one skill:
 
 ```bash
-npx skills add orleib-lab/agent-skills --skill session-verdict
+npx skills add orleib/agent-skills --skill session-verdict
 ```
 
 Install every skill in the pack:
 
 ```bash
-npx skills add orleib-lab/agent-skills
+npx skills add orleib/agent-skills
 ```
 
 ## Skills

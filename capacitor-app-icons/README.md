@@ -7,7 +7,7 @@ AI agent skill that generates all required app icon and splash screen assets for
 ## Installation
 
 ```bash
-npx skills add orleib-lab/agent-skills --skill capacitor-app-icons
+npx skills add orleib/agent-skills --skill capacitor-app-icons
 ```
 
 ## Usage
